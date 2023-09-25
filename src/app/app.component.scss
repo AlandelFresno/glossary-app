@@ -1,0 +1,59 @@
+.main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #061a23 0%, #06262d 63.54%, #06373b 100%);
+}
+.header {
+  select {
+    position: absolute;
+    top: 4%;
+    right: 8%;
+    background-color: transparent;
+    border: 0;
+  }
+}
+.menu-container {
+  position: absolute;
+  top: 4%;
+  left: 8%;
+  z-index: 10;
+  .menu {
+    position: absolute;
+    height: 16px;
+    width: 26px;
+    color: white;
+  }
+  .menu:focus {
+    outline: none;
+  }
+  .menu-modal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 167px;
+    height: 285px;
+    border-radius: 0px 20px 20px 20px;
+    background: #06373b;
+    .decks {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .new-deck {
+      color: #00dfc4;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+.menu-container:focus-within {
+  .menu-modal {
+    display: flex;
+  }
+}

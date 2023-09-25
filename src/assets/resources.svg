@@ -1,0 +1,16 @@
+<symbol xmlns="http://www.w3.org/2000/svg" style="display: none;">
+
+    <symbol id="burger" viewBox="0 0 30 19" fill="none" >
+        <path d="M1.89874 1.73386H28.14" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+        <path d="M1.89874 9.85614H28.14" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+        <path d="M1.89874 17.9785H28.14" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+    </symbol>
+
+    <svg id="x" viewBox="0 0 14 14" fill="none">
+        <path d="M0.44745 13.4896L5.25345 6.97359L0.69945 0.889593H3.81345L6.80145 5.02959L9.77145 0.889593H12.7775L8.29545 6.97359L13.1554 13.4896H10.0415L6.74745 8.91759L3.45345 13.4896H0.44745Z" fill="white"/>
+    </svg>
+
+</svg>
+  
+
+
