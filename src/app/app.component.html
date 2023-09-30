@@ -1,22 +1,5 @@
 <ion-app class="main">
-  <div class="header">
-    <div class="menu-container">
-      <svg class="menu" tabindex="0">
-          <use xlink:href="assets/resources.svg#burger" />
-      </svg>
-      <!-- <ion-icon class="menu" name="menu-outline" (click)="onClick()" >
-        </ion-icon> -->
-      <div class="menu-modal">
-        <div class="decks">
-          <p>Deck 1</p>
-          <p>Deck 2</p>
-          <p>Deck 3</p>
-        </div>
-        <p class="new-deck">+ New deck</p>
-      </div>
-    </div>
-    <select>
-      <option>Sort by</option>
-    </select>
-  </div>
+  <app-header />
+  <app-content />
+  <app-footer-button class="add-button"/>
 </ion-app>
